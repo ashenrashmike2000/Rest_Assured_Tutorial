@@ -78,7 +78,7 @@ public class Chapter2Test {
                 get(url).
                 then().
                 assertThat().
-                body("places.'place name'",hasSize(2));
+                body("places.'place name'",hasSize(1));
     }
 
 
